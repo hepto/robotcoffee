@@ -3,6 +3,14 @@ theme: jekyll-theme-minimal
 title: 🤖 ☕️
 description: The personal blog of @iamhepto
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "@iamhepto"
+
 github:
   is_project_page: false
   is_user_page: false
